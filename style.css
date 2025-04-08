@@ -30,7 +30,7 @@ body {
 }
 
 section {
-  margin-top: 1rem;
+  margin-top: 2.5rem;
   padding: 1rem;
 }
 
@@ -43,7 +43,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 76vh;
+  min-height: 68vh;
   width: auto;
 }
 
@@ -83,11 +83,11 @@ section {
 }
 
 .logo {
-  color: #fff;
-  font-size: 25px;
-  text-decoration: none;
-  font-weight: 600;
   cursor: default;
+}
+.logo img {
+  max-width: 3.5rem;
+  max-height: 4.5rem;
 }
 
 .navbar a {
