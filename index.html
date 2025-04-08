@@ -1,86 +1,82 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>自適應設計範例</title>
-  <style>
-        body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f4f4f4;
-        }
-
-        .container {
-        width: 100%;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: white;
-        }
-
-        header {
-        text-align: center;
-        padding: 20px;
-        background-color: #333;
-        color: white;
-        }
-
-        main {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        }
-
-        .card {
-        width: 48%;
-        margin-bottom: 20px;
-        background-color: #fff;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        padding: 20px;
-        border-radius: 8px;
-        }
-
-        h1 {
-        font-size: 2.5rem;
-        }
-
-        @media (max-width: 1024px) {
-        .card {
-            width: 100%;
-        }
-        }
-
-    @media (max-width: 768px) {
-      header h1 {
-        font-size: 2rem;
-      }
-      .card {
-        width: 100%;
-        padding: 15px;
-      }
-    }
-  </style>
+  <title>白浣熊</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-
-  <header>
-    <h1>自適應設計範例</h1>
+  <header class="header">
+    <a href="#" class="logo">Logo</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="index.html">首頁</a>
+      <!-- <a href="#about">關於</a> -->
+      <a href="commition.html">委託事項</a>
+      <a href="connect.html">聯絡資訊</a>
+      <!-- <a href="#">聯絡資訊</a> -->
+    </nav>
   </header>
+  <div class="nav-bg"></div>
 
-  <div class="container">
-    <main>
+  <section id="home">
+    <div class="container">
       <div class="card">
-        <h2>卡片 1</h2>
-        <p>這是第一個卡片的內容。當螢幕寬度變小時，卡片會自動調整大小。</p>
+        <h2>白浣熊</h2>
+        <br>
+        <h3>3D建模｜V皮製作</h3>
+        <h3>合作邀約/委託：whiteraccoontw@gmail.com</h3>
+        <br>
+        <div class="grid">
+          <div class="interactive-button">
+            <a href="https://www.artstation.com/user-6222867" class="button-a">ArtStation</a>
+          </div>
+          <div class="interactive-button">
+            <a href="https://sketchfab.com/whiteraccoontw" class="button-a">Sketchfab</a>
+          </div>
+          <div class="interactive-button">
+            <a href="https://www.threads.net/@whiteraccoontw" class="button-a">Thread</a>
+          </div>
+
+        </div>
       </div>
+    </div>
+  </section>
+
+  <section id="character">
+    <div class="container">
       <div class="card">
-        <h2>卡片 2</h2>
-        <p>這是第二個卡片的內容。它會隨著螢幕的大小自動調整。</p>
+        <h2>角色建模</h2>
+        <p>以Warudo直播軟體為主的客製3D V皮製作</p>
+        <div class="img-box">
+          <img src="/assets/v01.png" alt="名稱為白浣熊的角色照片">
+        </div>
+        <p></p>
       </div>
-    </main>
-  </div>
+    </div>
+
+  </section>
+
+  <section id="prop">
+    <div class="container">
+      <div class="card">
+        <h2>直播道具建模</h2>
+        <p>以Warudo直播軟體為主的客製3D 道具製作</p>
+        <div class="img-box">
+          <img src="/assets/Prop.png" alt="各式不同設計的直播用道具">
+        </div>
+        <p></p>
+      </div>
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
 
 </body>
+
 </html>
