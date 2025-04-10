@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>白浣熊</title>
+  <link rel="shortcut icon" href="/assets/fav32.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo"><img src="/assets/logo.png" alt=""></a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="index.html">HOME</a>
+      <!-- <a href="#about">關於</a> -->
+      <a href="commition.html">COMMITION</a>
+      <a href="connect.html">INFO</a>
+      <a href="/index.html">中文</a>
+    </nav>
+  </header>
+  <div class="nav-bg"></div>
+
+  <section id="comm">
+    <div class="container">
+      <div class="card">
+        <h2>Commission Details</h2>
+        <hr>
+        <h3>Reference Materials</h3>
+        <div class="text-box">
+          <p>- Please provide a front view reference image of the character (T-pose, A-pose). Providing a three-view
+            reference is even better.</p>
+          <p>- For complex symbols or patterns, please provide clear image files separately.</p>
+          <p>- If the character reference image does not meet the requirements, the estimated price may increase, and
+            the number of communication rounds may increase.</p>
+          <p>- For furry model production, hair rendering will be simplified appropriately. Realistic fur texture cannot
+            be achieved at this time.</p>
+          <p>- Currently, primarily accepting male models.</p>
+          <p>- Items that cannot be accepted:</p>
+          <p>　　Large-area armor, metal models</p>
+          <p>　　Realistic, photorealistic style painting</p>
+          <p>　　Non-original characters</p>
+          <p>- Commissioners should confirm whether the modeler's work style meets their preferences before deciding to
+            commission.</p>
+        </div>
+        <hr>
+        <h3>Similarity to Reference Materials</h3>
+        <div class="text-box">
+          <p>- Visual style and silhouette will be restored as much as possible to the reference image, but complete
+            replication is not possible and includes necessary adjustments for 3D rendering.</p>
+          <p>- Shadow rendering is mainly to enhance the overall visual feel and will not completely replicate the
+            reference image content.</p>
+          <p>- Character models may have slight discrepancies due to camera perspective. Please raise questions or
+            concerns during the plane model confirmation stage.</p>
+          <p>- Model coloring and colors are affected by rendering methods, ambient light settings, etc. The reference
+            image will be the main guide during coloring.</p>
+        </div>
+        <hr>
+        <h3>Model Specifications</h3>
+        <div class="text-box">
+          <p>- 3D Model: The output file is a vrm file suitable for Warudo streaming.</p>
+          <p>　　Tested only for Warudo. Although vrm files are compatible with VR Chat,<br>　　their usability on
+            the VRC platform is not guaranteed, and related technical support is not provided.</p>
+          <p>- Basic bone rigging, application of swaying physics.</p>
+          <p>- Basic mouth shapes (A, E, I, O, U).</p>
+          <p>- Basic expressions (joy, anger, sorrow, happiness).</p>
+          <p>- Please refer to the price list for advanced items.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section id="payment">
+    <div class="container">
+      <div class="card">
+        <h3>Payment Information</h3>
+        <div class="text-box">
+          <p><b>Price</b></p>
+          <p>- Price range is NT$35,000 to 80,000, evaluated based on requirements and model complexity.</p>
+          <p>- Design support: NT$0 to 2,000, for incomplete reference materials or design modifications.</p>
+          <p>- Confidentiality agreement: Up to 10% of the full amount, from the model production period until initial
+            disclosure or one week after file delivery.</p>
+          <p>- AR kit facial capture system: NT$5,000 to 10,000, evaluated based on the model's facial structure.</p>
+          <p>- Additional expressions: NT$500 to 1,000 per expression, depending on complexity and effect. Can replace
+            some basic expressions.</p>
+          <p>- Additional items: NT$800 to 2,500+ per item, for objects not in the reference design (object reference
+            image also required).</p>
+          <p>- Removable clothing: NT$2,000 to 5,000, adjustments needed to avoid clipping.</p>
+          <p><b>Payment Method</b></p>
+          <p>- Full payment.</p>
+          <p>- 50% deposit, production begins upon confirmation of receipt; 50% balance due upon confirmation of receipt
+            before file delivery.</p>
+          <p>- <strong>Please confirm you have the full budget before submitting a commission to avoid subsequent
+              disputes.</strong></p>
+          <p>- Payment methods: Bank transfer and PayPal (overseas).</p>
+          <p>- 3D model costs are relatively high. Please carefully assess your financial situation before
+            commissioning.</p>
+          <p><b>Cancellation/Refund</b></p>
+          <p>- If the commissioner cancels the commission for any reason, the paid amount will not be refunded.</p>
+          <p>- If the modeler cancels the commission for any reason, all received payments will be refunded.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+  <section id="workflow">
+    <div class="container">
+      <div class="card">
+        <h3>Production Process</h3>
+        <div class="text-box">
+          <p><b>Modeling and Texturing Process All Done in Blender</b></p>
+          <p>1. Plane Model Stage: Fully custom modeling, referencing the outline and muscle/bone texture of the
+            reference image; this is a crucial checkpoint.</p>
+          <p>2. UV Mapping Stage: UV unwrapping, organizing texture part distribution, reference image color analysis.
+          </p>
+          <p>3. Rigging and Weight Painting Stage: Applying vrm rig, setting up swaying bones, weight painting.</p>
+          <p>4. Shape Key Creation Stage: Adjusting facial expressions, mouth shapes, and other deformations.</p>
+          <p>5. Before Blender Export: File organization, baking materials, preliminary testing.</p>
+          <p>6. Unity Stage: Importing textures and setting up toon shader, shape key setup, skeleton setup,
+            physics-based swaying setup, iterative testing.</p>
+          <p>7. Warudo Testing Stage: Facial capture testing, expressions, actual swaying effect testing.</p>
+          <p><b>Modifications and Communication</b></p>
+          <p>- Each stage involves changes that are difficult to revert to varying degrees, so please pay close
+            attention during checkpoints.</p>
+          <p>- Production time depends on the model's complexity, estimated at 6 to 10 weeks, with weekly progress
+            updates.</p>
+          <p>- Minor revisions are accepted within 14 days after model delivery. After the deadline or once revisions
+            are complete, the commission will be officially closed.</p>
+          <p>- The completed model will be included in the modeler's portfolio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="other">
+    <div class="container">
+      <div class="card">
+        <h3>Precautions</h3>
+        <div class="text-box">
+          <p><b>Modeler Attribution</b></p>
+          <p>- Please credit @whiteraccoontw when using the model on live streaming platforms and social media.</p>
+          <br>
+          <p><b>Scope of Model Usage</b></p>
+          <p>- Use for online live streaming, video recording, or personal use with applications based on Unity.</p>
+          <p>- All other commercial uses are prohibited unless explicitly specified in a contract or related documents.
+          </p>
+          <p><b>Prohibited Usage Examples:</b></p>
+          <p>- Selling model files, texture data, etc.</p>
+          <p>- Selling model files modified using partial model data.</p>
+          <p>- Physicalizing through 3D printing or using as a mold for sale.</p>
+          <p><b>Other Prohibited Items</b></p>
+          <p>- Any illegal activities.</p>
+          <p>- Acts that violate public order and morals.</p>
+          <p>- Falsifying authorship.</p>
+          <p>- Use in R-18 content.</p>
+          <p>- Any behavior that causes harassment or disparages others or specific groups when using the model.</p>
+          <p><b>Disclaimer</b></p>
+          <p>- The producer is not responsible for any damages caused by the user or third parties using the model.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  </div>
+
+  <script src="/script.js"></script>
+
+</body>
+
+</html>
