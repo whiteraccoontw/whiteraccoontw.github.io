@@ -90,6 +90,12 @@ section {
   max-height: 4.5rem;
 }
 
+.thumbnail {
+  max-width: 12rem;
+  max-height: 12rem;
+  border-radius: 28%;
+}
+
 .navbar a {
   color: #fff;
   font-size: 18px;
